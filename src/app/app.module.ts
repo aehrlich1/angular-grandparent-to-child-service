@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { GrandparentComponent } from './grandparent/grandparent.component';
+import { ParentComponent } from './parent/parent.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GrandparentComponent
+    GrandparentComponent,
+    ParentComponent
   ],
   imports: [
     BrowserModule
